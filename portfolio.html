@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdullah Al Muksit Tamim - Personal Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .name {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .surname {
+        font-weight: bold;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-left: 5px;
+      }
+      .navbar {
+        display: inline-block;
+        margin-left: 20px;
+      }
+
+      .navbar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navbar li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: rgb(136, 76, 76);
+        font-size: 18px;
+      }
+
+      .summary {
+        margin-top: 30px;
+      }
+
+      .work-experience {
+        margin-top: 50px;
+      }
+
+      .work-experience h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .work-experience ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .work-experience li {
+        margin-bottom: 20px;
+      }
+
+      .work-experience .title {
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+        width: 50%;
+      }
+
+      .work-experience .time {
+        font-size: 16px;
+        display: inline-block;
+        width: 50%;
+        text-align: right;
+        color: #999;
+      }
+
+      .work-experience .subtitle {
+        font-size: 18px;
+        margin-top: 5px;
+      }
+
+      .work-experience .responsibilities {
+        margin-top: 10px;
+      }
+
+      .work-experience .responsibilities ul {
+        margin-left: 20px;
+      }
+
+      .research {
+        margin-top: 50px;
+      }
+
+      .research h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .certificates {
+        margin-top: 50px;
+      }
+
+      .certificates h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="name">
+          Abdullah Al Muksit <span class="surname">TAMIM</span>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+          </ul>
+        </nav>
+        <div class="social-links">
+          <a href="https://github.com/username">Github</a>
+          <a href="https://www.linkedin.com/in/username">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/username"
+            >ResearchGate</a
+          >
+        </div>
+      </header>
+      <main class="main">
+        <section class="summary">
+          <h2>Summary</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            aliquet libero vitae tellus semper, non feugiat est rhoncus. Nulla
+            facilisi. Aliquam erat volutpat. Praesent tincidunt odio sit amet
+            enim bibendum, quis blandit ipsum vulputate. Proin euismod arcu ac
+            orci maximus finibus.
+          </p>
+        </section>
+        <section class="work-experience" id="work-experience">
+          <h2>Work Experience</h2>
+          <ul>
+            <li>
+              <div class="title-time">
+                <h3>Title 1</h3>
+                <p>Time Range 1</p>
+              </div>
+              <div class="subtitle">
+                <a href="https://www.company1.com">Company 1</a>
+              </div>
+              <ul class="responsibilities">
+                <li>Responsibility 1.1</li>
+                <li>Responsibility 1.2</li>
+                <li>Responsibility 1.3</li>
+              </ul>
+            </li>
+            <li>
+              <div class="title-time">
+                <h3>Title 2</h3>
+                <p>Time Range 2</p>
+              </div>
+              <div class="subtitle">
+                <a href="https://www.company2.com">Company 2</a>
+              </div>
+              <ul class="responsibilities">
+                <li>Responsibility 2.1</li>
+                <li>Responsibility 2.2</li>
+                <li>Responsibility 2.3</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="projects" id="projects">
+          <h2>Projects</h2>
+          <p>Here are some of the projects I've worked on:</p>
+          <ul>
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
+          </ul>
+        </section>
+        <section class="research" id="research">
+          <h2>Research</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            aliquet libero vitae tellus semper, non feugiat est rhoncus. Nulla
+            facilisi. Aliquam erat volutpat. Praesent tincidunt odio sit amet
+            enim bibendum, quis blandit ipsum vulputate. Proin euismod arcu ac
+            orci maximus finibus.
+          </p>
+        </section>
+        <section class="certificates" id="certificates">
+          <h2>Certificates</h2>
+          <ul>
+            <li>Certificate 1</li>
+            <li>Certificate 2</li>
+            <li>Certificate 3</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
